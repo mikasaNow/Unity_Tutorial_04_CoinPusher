@@ -26,7 +26,7 @@ public class MovePusher : MonoBehaviour {
 		Debug.Log (pos.z);
 		if (pos.z >= origin.z + 1.0f) {
 			speed = -0.02f;
-		} else if (pos.z <= origin.z - 1.0f) {
+		} else if (pos.z <= origin.z - 1.5f) {
 			speed = 0.02f;
 		}
 		GetComponent<Rigidbody> ().MovePosition (new Vector3(pos.x, pos.y, pos.z + speed));

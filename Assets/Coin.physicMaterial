@@ -6,10 +6,10 @@ PhysicMaterial:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Coin
-  dynamicFriction: .600000024
-  staticFriction: .600000024
-  bounciness: 1
-  frictionCombine: 0
+  dynamicFriction: .5
+  staticFriction: .5
+  bounciness: .100000001
+  frictionCombine: 3
   bounceCombine: 0
   frictionDirection2: {x: 0, y: 0, z: 0}
   dynamicFriction2: 0
